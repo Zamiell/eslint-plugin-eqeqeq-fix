@@ -6,7 +6,7 @@ This is a replacement for the ESLint [eqeqeq rule](https://eslint.org/docs/rules
 
 <br />
 
-### How do I use it?
+## How do I use it?
 
 * `npm install --save-dev eslint-plugin-eqeqeq-fix`
 * Add  `plugin-eqeqeq-fix` to the `plugins` section of your `.eslintrc.js` file:
@@ -38,7 +38,7 @@ If you know for sure that your code base does not use any instances of `==`, the
 
 <br />
 
-### How did you make this?
+## How did you make this?
 
 * I copied [the ESLint source code](https://github.com/eslint/eslint/blob/master/lib/rules/eqeqeq.js) into a new rule plugin.
 * I didn't have to do anything else - for some reason, `--fix` just automatically works.
