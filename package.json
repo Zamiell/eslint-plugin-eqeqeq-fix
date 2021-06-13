@@ -12,5 +12,5 @@
   },
   "license": "GPL-3.0",
   "author": "Zamiell",
-  "main": "index.js"
+  "main": "eslint-plugin-eqeqeq-fix.js"
 }

@@ -9,20 +9,7 @@ This is a replacement for the ESLint [eqeqeq rule](https://eslint.org/docs/rules
 ## How do I use it?
 
 * `npm install --save-dev eslint-plugin-eqeqeq-fix`
-* Add  `plugin-eqeqeq-fix` to the `plugins` section of your `.eslintrc.js` file:
-* Add the `eqeqeq-fix/eqeqeq` rule.
-* Turn off the normal `eqeqeq` rule, if you have it enabled, so that they don't overlap. (For example, the `eqeqeq` rule is included in the [Airbnb config](https://github.com/airbnb/javascript) and a lot of other standard ESLint configs.)
-
-For reference, this is a `.eslintrc.js` file that only enables this rule and nothing else:
-
-```js
-module.exports = {
-  "plugins": ["eqeqeq-fix"],
-  "rules": {
-    "eqeqeq-fix/eqeqeq": "warn",
-  },
-};
-```
+* Add  `"plugin:eqeqeq-fix/recommended"` to the `extends` section of your `.eslintrc.js` file.
 
 <br />
 
@@ -38,9 +25,15 @@ If you know for sure that your code base does not use any instances of `==`, the
 
 <br />
 
-## How did you make this?
+### What rules does this plugin provide?
+
+It only provides one rule: `"eqeqeq-fix/eqeqeq"`
+
+<br />
+
+### How did you make this?
 
 * I copied [the ESLint source code](https://github.com/eslint/eslint/blob/master/lib/rules/eqeqeq.js) into a new rule plugin.
-* I didn't have to do anything else - for some reason, `--fix` just automatically works.
+* I didn't have to do anything else. For some reason, `--fix` just automatically works.
 
 <br />

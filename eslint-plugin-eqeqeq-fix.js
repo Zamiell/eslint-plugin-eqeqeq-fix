@@ -33,6 +33,17 @@ module.exports = {
 */
 
 module.exports = {
+    configs: {
+        recommended: {
+            plugins: ["eqeqeq-fix"],
+
+            rules: {
+                "eqeqeq": "off",
+                "eqeqeq-fix/eqeqeq": "warn",
+            },
+        },
+    },
+
     rules: {
         "eqeqeq": {
             create: eqeqeq,
