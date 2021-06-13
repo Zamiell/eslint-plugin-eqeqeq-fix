@@ -1,0 +1,16 @@
+{
+  "name": "eslint-plugin-eqeqeq-fix",
+  "version": "1.0.0",
+  "description": "A replacement for the ESLint eqeqeq rule that allows automatic fixing.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zamiell/eslint-plugin-eqeqeq-fix.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "author": "Zamiell",
+  "license": "GPL-3.0"
+}
