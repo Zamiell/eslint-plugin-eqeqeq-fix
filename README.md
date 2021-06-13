@@ -21,7 +21,7 @@ However, when using the `--fix` flag, ESLint will not automatically fix this for
 
 With that said, in most modern code, intentional use of the `==` operator is rare because it results in code that is hard to read and less explicit. Thus, you might never actually have to worry about this potential code-breakage.
 
-If you know for sure that your code base does not use any instances of `==`, then use this plugin to make this rule automatically `--fix`able. Doing so will allow you to type one less equals keystroke for every single if statement that you write! (Assuming that you use `eslint --fix` on-save, like many people do nowadays.)
+If you know for sure that your code base does not use any instances of `==`, then use this plugin to make this rule automatically `--fix`able. Doing so will allow you to type one less equals keystroke every time you write equality! (Assuming that you use `eslint --fix` on-save, like many people do nowadays.)
 
 <br />
 
