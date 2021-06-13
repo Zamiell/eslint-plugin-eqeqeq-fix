@@ -25,13 +25,13 @@ If you know for sure that your code base does not use any instances of `==`, the
 
 <br />
 
-### What rules does this plugin provide?
+## What rules does this plugin provide?
 
 It only provides one rule: `"eqeqeq-fix/eqeqeq"`
 
 <br />
 
-### How did you make this?
+## How did you make this?
 
 * I copied [the ESLint source code](https://github.com/eslint/eslint/blob/master/lib/rules/eqeqeq.js) into a new rule plugin.
 * I didn't have to do anything else. For some reason, `--fix` just automatically works.
