@@ -172,12 +172,8 @@ function eqeqeq(context) {
             messageId: "unexpected",
             data: { expectedOperator, actualOperator: node.operator },
             fix(fixer) {
-
-                // If the comparison is a `typeof` comparison or both sides are literals with the same type, then it's safe to fix.
-                if (isTypeOfBinary(node) || areLiteralsAndSameType(node)) {
-                    return fixer.replaceText(operatorToken, expectedOperator);
-                }
-                return null;
+                // Fix everything regardless of whether or not it is safe to fix
+                return fixer.replaceText(operatorToken, expectedOperator);
             }
         });
     }

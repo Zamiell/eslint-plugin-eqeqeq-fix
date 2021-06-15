@@ -34,6 +34,6 @@ It only provides one rule: `"eqeqeq-fix/eqeqeq"`
 ## How did you make this?
 
 * I copied [the ESLint source code](https://github.com/eslint/eslint/blob/master/lib/rules/eqeqeq.js) into a new rule plugin.
-* I didn't have to do anything else. For some reason, `--fix` just automatically works.
+* I removed the conditional in the `fix()` function.
 
 <br />
