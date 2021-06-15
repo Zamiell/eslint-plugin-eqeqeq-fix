@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-eqeqeq-fix",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A replacement for the ESLint eqeqeq rule that allows automatic fixing.",
   "keywords": [
     "eslint",
