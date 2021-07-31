@@ -68,10 +68,10 @@ module.exports = {
                                     properties: {
                                         null: {
                                             enum: ["always", "never", "ignore"]
-                                        }
+                                        },
                                     },
                                     additionalProperties: false
-                                }
+                                },
                             ],
                             additionalItems: false
                         },
@@ -80,18 +80,18 @@ module.exports = {
                             items: [
                                 {
                                     enum: ["smart", "allow-null"]
-                                }
+                                },
                             ],
                             additionalItems: false
-                        }
-                    ]
+                        },
+                    ],
                 },
         
                 fixable: "code",
         
                 messages: {
                     unexpected: "Expected '{{expectedOperator}}' and instead saw '{{actualOperator}}'."
-                }
+                },
             },
         },
     },
