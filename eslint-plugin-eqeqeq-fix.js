@@ -3,15 +3,18 @@
  * @author Nicholas C. Zakas
  */
 
- "use strict";
+"use strict";
 
- /**
+//------------------------------------------------------------------------------
+// Requirements
+//------------------------------------------------------------------------------
+
+/**
  * Determines whether the given node is a `null` literal.
  * @param {ASTNode} node The node to check
  * @returns {boolean} `true` if the node is a `null` literal
  */
 function isNullLiteral(node) {
-
     /*
      * Checking `node.value === null` does not guarantee that a literal is a null literal.
      * When parsing values that cannot be represented in the current environment (e.g. unicode
