@@ -168,7 +168,6 @@ function eqeqeq(context) {
         context.report({
             node,
             loc: operatorToken.loc,
-            // messageId: "unexpected",
             messageId: "unexpected",
             data: { expectedOperator, actualOperator: node.operator },
             fix(fixer) {
