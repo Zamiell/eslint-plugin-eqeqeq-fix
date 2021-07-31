@@ -26,12 +26,6 @@ function isNullLiteral(node) {
  // Rule Definition
  //------------------------------------------------------------------------------
 
- /*
-module.exports = {
-
-};
-*/
-
 module.exports = {
     configs: {
         recommended: {
